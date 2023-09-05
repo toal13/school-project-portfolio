@@ -25,6 +25,10 @@ body {
   gap: 20px;
 }
 
+.header-logo{
+
+}
+
 .header-nav-link {
   color: rgba(rgb(192, 178, 178), green, blue, alpha);
 }
