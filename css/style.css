@@ -1,0 +1,106 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eadbc8;
+}
+
+/* header */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(81, 80, 77, 0.25);
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+}
+
+.header-nav {
+  margin-top: 10px;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-nav-link {
+  color: rgba(rgb(192, 178, 178), green, blue, alpha);
+}
+
+/* common parts */
+.inner {
+  padding: 0 40px;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.section-heading-main {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.fv{
+    height: 60vh;
+}
+
+/* about */
+.about{
+    padding: 40px 0;
+}
+.about-contents {
+    margin-top: 16px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.about-text + .about-text {
+  margin-top: 16px;
+}
+
+/* project */
+
+.projects{
+    background-color: #F8F0E5;
+    padding: 40px 0;
+}
+
+.project-contents{
+
+}
+
+.project-list{
+
+}
+
+.project-item{
+
+}
+
+.project-img{
+ border-radius: 5%;
+}
+
+.project-text-contents{
+text-align: center;
+}
+
+.project-name{
+ font-size: 18px;
+ font-weight: ;
+}
+
+.project-main-name{
+ display: block;
+}
+
+.project-language{
+
+}
