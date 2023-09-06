@@ -1,72 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tomoyos portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <header class="header">
-        <h1 class="header-logo"><img src="./img/tomoyo.png" alt=""></h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header-outer">
+      <div class="header-inner">
+        <div class="header-logo">
+          <img src="./img/tomoyo.png" class="header-logo-img" alt="tomoyo" />
+        </div>
         <nav class="header-nav">
-            <ul class="header-nav-list">
+          <ul class="header-nav-list">
             <li class="header-nav-item">
-                <a href="#about" class="header-nav-link">About</a>
+              <a href="#about" class="header-nav-link">About</a>
             </li>
             <li class="header-nav-item">
-                <a href="#projests" class="header-nav-link">Projects</a>
+              <a href="#projests" class="header-nav-link">Projects</a>
             </li>
             <li class="header-nav-item">
-                <a href="#skills" class="header-nav-link">Skills</a>
+              <a href="#skills" class="header-nav-link">Skills</a>
             </li>
-        </ul>
+          </ul>
         </nav>
+      </div>
     </header>
     <div class="fv">
-        <img src="./img/background2.jpg" alt="" class="fv">
+      <img src="./img/background2.jpg" alt="" class="fv" />
     </div>
-    <section class="about">
-        <div class="inner">
-            <h2 class="section-heading">
-                <span class="section-heading-main">About</span>
-            </h2>
-            <div class="about-contents">
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p class="about-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           </div>
-       </div>
-    </section>
-    <section class="projects">
-        <div class="inner">
-            <h2 class="section-heading">
-                <span class="section-heading-main">Projects</span>
-            </h2>
-            <div class="project-contents">
-                <ul class="project-list">
-                    <li class="project-item">
-                        <div class="project-img/content">
-                            <img src="./img/chatbot.jpg" class="project-img" alt="chatbot">
-                        </div>
-                        <div class="project-text-contents">
-                            <h3 class="project-name">
-                                <span class="project-main-name">Chatbot</span>
-                                <span class="project-language">HTML/CSS/JS</span>
-                            </h3>
-                            <div class="project-link">
-                            
-                            <a href="https://github.com/toal13/project-chatbot" target="_blank"><img src="./img/github-sign.png" alt="" width="30" height="30"></a>
-                        </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+    <section class="about" id="about">
+      <div class="inner">
+        <h2 class="section-heading">
+          <span class="section-heading-main">About</span>
+        </h2>
+        <div class="about-contents">
+          <p class="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p class="about-text">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
         </div>
-
+      </div>
     </section>
-</body>
+    <section class="projects" id="projests">
+      <div class="inner">
+        <h2 class="section-heading">
+          <span class="section-heading-main">Projects</span>
+        </h2>
+        <div class="project-contents">
+          <ul class="project-list">
+            <li class="project-item">
+              <div class="project-img/content">
+                <img
+                  src="./img/chatbot.jpg"
+                  class="project-img"
+                  alt="chatbot"
+                />
+              </div>
+              <div class="project-text-contents">
+                <h3 class="project-name">
+                  <span class="project-main-name">Chatbot</span>
+                  <span class="project-language">HTML/CSS/JS</span>
+                </h3>
+                <div class="project-link">
+                  <a
+                    href="https://github.com/toal13/project-chatbot"
+                    target="_blank"
+                    ><img
+                      src="./img/github-sign.png"
+                      alt=""
+                      width="30"
+                      height="30"
+                  /></a>
+                </div>
+              </div>
+            </li>
+            <li class="project-item">
+              <div class="project-img/content">
+                <img
+                  src="./img/businesssite.png"
+                  class="project-img"
+                  alt="chatbot"
+                />
+              </div>
+              <div class="project-text-contents">
+                <h3 class="project-name">
+                  <span class="project-main-name">Business site</span>
+                  <span class="project-language">HTML/CSS/JS</span>
+                </h3>
+                <div class="project-link">
+                  <a
+                    href="https://github.com/toal13/project-business-site"
+                    target="_blank"
+                    ><img
+                      src="./img/github-sign.png"
+                      alt=""
+                      width="30"
+                      height="30"
+                  /></a>
+                </div>
+              </div>
+            </li>
+            <li class="project-item">
+              <div class="project-img/content">
+                <img src="./img/movie.jpg" class="project-img" alt="movie" />
+              </div>
+              <div class="project-text-contents">
+                <h3 class="project-name">
+                  <span class="project-main-name">Movie site</span>
+                  <span class="project-language">React/API</span>
+                </h3>
+                <div class="project-link">
+                  <a
+                    href="https://github.com/toal13/project-movies"
+                    target="_blank"
+                    ><img
+                      src="./img/github-sign.png"
+                      alt=""
+                      width="30"
+                      height="30"
+                  /></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="inner">
+        <h2 class="section-heading">
+          <span class="section-heading-main">Skills</span>
+        </h2>
+        <div class="skill-container">
+          <div class="skill-code">
+            <h3 class="skill-title">CODE</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Redux</p>
+            <p>Node.js</p>
+          </div>
+          <div class="skill-tools">
+            <h3 class="skill-title">TOOLS</h3>
+            <p>VS Code</p>
+            <p>Git Hub</p>
+            <p>Postman</p>
+            <p>Slack</p>
+            <p>Figma</p>
+          </div>
+          <div class="skill-uppcoming">
+            <h3 class="skill-title">UPPCOMING</h3>
+            <p>Type Script</p>
+            <p>Wordpress</p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="inner">
+        <h2 class="section-heading">
+          <span class="section-heading-main">Contact</span>
+        </h2>
+      </div>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a
+            href="https://github.com/toal13?tab=repositories"
+            class="footer-nav-link"
+            ><img src="./img/github-white-1.png" alt="github" class="sns-img"
+          /></a>
+        </li>
+        <li class="footer-nav-item">
+          <a
+            href="https://www.linkedin.com/in/tomoyo-alvåg-6b6788219"
+            class="footer-nav-link"
+            ><img
+              src="./img/linkedin-white-1.png"
+              alt="linkedin"
+              class="sns-img"
+          /></a>
+        </li>
+      </ul>
+      <a href="mailto:alvag.tomoyo@gmail.com" class="mailadress"
+        >alvag.tomoyo@gmail.com</a
+      >
+      <div class="footer-copy-wrapper">
+        <small class="footer-copy-light">&copy;2023 tomoyo.</small>
+      </div>
+    </footer>
+  </body>
 </html>

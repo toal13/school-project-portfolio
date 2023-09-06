@@ -5,28 +5,48 @@ body {
 
 /* header */
 
-.header {
-  position: fixed;
+.header-outer {
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
+  align-items: center;
+  position: sticky;
+  top: -80px;
+  height: 120px;
   border-bottom: 1px solid rgba(81, 80, 77, 0.25);
   width: 100%;
   text-align: center;
-  padding: 12px;
+  padding: 20px;
+  background-color: chocolate;
+}
+
+.header-inner{
+  height: 70%;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-nav {
   margin-top: 10px;
+ 
 }
 
 .header-nav-list {
   display: flex;
   justify-content: center;
   gap: 20px;
+  
 }
 
 .header-logo{
 
+}
+
+.header-logo-img {
+  width: 40%;
+  height: 50%;
 }
 
 .header-nav-link {
@@ -48,16 +68,16 @@ body {
   margin-bottom: 10px;
 }
 
-.fv{
-    height: 60vh;
+.fv {
+  height: 60vh;
 }
 
 /* about */
-.about{
-    padding: 40px 0;
+.about {
+  padding: 40px 0;
 }
 .about-contents {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .about-text {
@@ -71,40 +91,104 @@ body {
 
 /* project */
 
-.projects{
-    background-color: #F8F0E5;
-    padding: 40px 0;
+.projects {
+  background-color: #f8f0e5;
+  padding: 40px 0;
 }
 
-.project-contents{
+.project-contents {
+}
+
+.project-list {
+}
+
+.project-item {
+}
+
+.project-img {
+  border-radius: 30px;
+}
+
+.project-text-contents {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.project-name {
+  font-size: 18px;
+}
+
+.project-main-name {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.project-language {
+  font-size: 18px;
+}
+
+.project-link {
+  margin-top: 5px;
+}
+
+/* skills */
+
+.skills{
+  padding: 40px 0;
+}
+.skill-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  /* justify-content: space-around;
+  text-align: center; */
+  margin: 40px;
+}
+.skill-code {
+  margin-bottom: 20px;
+}
+
+.skill-tools {
+}
+.skill-title {
+  font-weight: bold;
+}
+/* footer */
+
+.footer {
+  background-color: #7895b2;
+  text-align: center;
+  padding-top: 46px;
+  color: #ffff;
+}
+
+.footer-nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-nav-item {
+}
+
+.sns-img {
+  width: 50px;
 
 }
 
-.project-list{
-
+.mailadress{
+  font-size: 12px;
 }
 
-.project-item{
-
+.footer-copy-wrapper {
+  border-top: 1px solid rgba(81, 80, 77, 0.25);
+  padding: 12px;
+  margin-top: 46px;
 }
 
-.project-img{
- border-radius: 5%;
-}
-
-.project-text-contents{
-text-align: center;
-}
-
-.project-name{
- font-size: 18px;
- font-weight: ;
-}
-
-.project-main-name{
- display: block;
-}
-
-.project-language{
-
+.footer-copy-light {
+  font-size: 12px;
 }
