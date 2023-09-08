@@ -11,7 +11,7 @@ body {
   left: 0; */
   align-items: center;
   position: sticky;
-  top: -80px;
+  top: -85px;
   height: 120px;
   border-bottom: 1px solid rgba(81, 80, 77, 0.25);
   width: 100%;
@@ -30,14 +30,12 @@ body {
 
 .header-nav {
   margin-top: 10px;
- 
 }
 
 .header-nav-list {
   display: flex;
   justify-content: center;
   gap: 20px;
-  
 }
 
 .header-logo{
@@ -65,11 +63,66 @@ body {
 .section-heading-main {
   display: block;
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
+/* first view */
 .fv {
-  height: 60vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-image: url(../img/background.jpg); */
+  /* background-size: cover; */
+}
+
+.fv-container{
+
+}
+
+.fv-text{
+}
+
+.profilepicture-container{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  -webkit-justify-content: flex-end;
+  -webkit-align-items: flex-end;
+
+}
+
+.profile-img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-image: url(../img/profilepicture.jpg);
+  object-fit: cover;
+  border: 3px solid #f4f4f4;
+  
+  /* position: absolute;
+  object-fit: cover;
+    bottom: 0;
+    top: 290px;
+    left: 171px;
+    overflow: hidden;
+    align-items: flex-end;
+    margin-top: 40px;
+    
+    */
+}
+
+.fv .fv-text {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color: rgba(56, 50, 50, 0.6);
+  font-size: 25px;
 }
 
 /* about */
@@ -156,12 +209,17 @@ body {
 .skill-title {
   font-weight: bold;
 }
+
+.contact-container{
+  text-align: center;
+}
+
 /* footer */
 
 .footer {
   background-color: #7895b2;
   text-align: center;
-  padding-top: 46px;
+  /* padding-top: 46px; */
   color: #ffff;
 }
 
@@ -186,7 +244,7 @@ body {
 .footer-copy-wrapper {
   border-top: 1px solid rgba(81, 80, 77, 0.25);
   padding: 12px;
-  margin-top: 46px;
+  margin-top: 20px;
 }
 
 .footer-copy-light {
