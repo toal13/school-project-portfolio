@@ -216,17 +216,12 @@ body {
 .contact-container{
   display: block;
   justify-content: center;
-
-  
 }
 
 .form {
   margin-top: 40px;
-
   display: flex;
   flex-flow: column;
-  
-  
 }
 
 .form-input{
@@ -254,7 +249,6 @@ color: #ffff;
 background-color: #a98c5f;
 
 }
-
 
 /* footer */
 
@@ -291,6 +285,43 @@ background-color: #a98c5f;
 
 .footer-copy-light {
   font-size: 12px;
+}
+
+/* 404 page */
+
+.page-not-found-container{
+margin-top: 60px;
+}
+
+.page-not-found-text{
+  text-align: center;
+font-size: 25px;
+}
+
+.image-container{
+    margin: 10px 50px 45px 50px;
+}
+
+.page-not-found-img{
+  
+}
+
+.back{
+  border-radius: 4px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin: 10px auto 0;
+  width: 120px;
+  padding: 10px;
+  color: #ffff;
+  background-color: #a98c5f;
+  transition: transform 1000ms;
+}
+
+.back:hover, .back:focus-visible{
+  transform: translateY(-1.75rem);
+  transition: transform 250ms;
 }
 
 /* tablet and pc size */
