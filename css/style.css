@@ -4,6 +4,10 @@ body {
   color: #272829;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* header */
 /* outside part of the header to make header shrink and inner container to stick to the top */
 
