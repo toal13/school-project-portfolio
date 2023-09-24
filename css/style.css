@@ -41,8 +41,7 @@ html {
 }
 
 .header-logo-img {
-  width: 40%;
-  height: 50%;
+  height: 35px;
 }
 
 /* Global  */
@@ -215,6 +214,10 @@ html {
   background-color: #181d31;
   text-align: center;
   color: #ffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-nav-list {
@@ -297,6 +300,7 @@ html {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    
   }
 
   .header-nav-list {
@@ -395,4 +399,8 @@ html {
   .back {
     margin-bottom: 10px;
   }
+}
+
+@media screen and (min-width: 402px){
+
 }
