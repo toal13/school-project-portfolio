@@ -221,6 +221,21 @@ html {
   color: #ffff;
 }
 
+.footer-home {
+  background-color: #181d31;
+  text-align: center;
+  color: #ffff;
+}
+
+.footer-contact {
+  background-color: #181d31;
+  text-align: center;
+  color: #ffff;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+
 .footer-nav-list {
   display: flex;
   justify-content: center;
@@ -408,5 +423,6 @@ html {
   bottom: 0;
   width: 100%;
   }
+
 }
 
